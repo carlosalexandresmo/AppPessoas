@@ -1658,7 +1658,7 @@ containing a value of this type.
         public static final int line1=0x7f0c005a;
         public static final int line3=0x7f0c005e;
         public static final int listMode=0x7f0c0009;
-        public static final int listPessoas=0x7f0c0054;
+        public static final int listPessoas=0x7f0c0053;
         public static final int list_item=0x7f0c0028;
         public static final int media_actions=0x7f0c0058;
         public static final int middle=0x7f0c001b;
@@ -1704,7 +1704,7 @@ containing a value of this type.
         public static final int title=0x7f0c002a;
         public static final int title_template=0x7f0c002f;
         public static final int topPanel=0x7f0c002e;
-        public static final int tvEmail=0x7f0c0053;
+        public static final int tvEmail=0x7f0c0054;
         public static final int tvIdade=0x7f0c0051;
         public static final int tvNome=0x7f0c0050;
         public static final int tvSexo=0x7f0c0052;
@@ -1786,6 +1786,9 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f060011;
         public static final int abc_toolbar_collapse_description=0x7f060012;
         public static final int app_name=0x7f060014;
+        public static final int idade=0x7f060015;
+        public static final int nome=0x7f060016;
+        public static final int sexo=0x7f060017;
         public static final int status_bar_notification_info_overflow=0x7f060013;
     }
     public static final class style {

@@ -50,7 +50,7 @@ activity#epd.vr.com.apppessoas.DetailActivity
 ADDED from C:\Users\SAV_EdAV\AndroidStudioProjects\AppPessoas\app\src\main\AndroidManifest.xml:18:9-23:20
 	android:name
 		ADDED from C:\Users\SAV_EdAV\AndroidStudioProjects\AppPessoas\app\src\main\AndroidManifest.xml:18:19-49
-activity#epd.vr.com.apppessoas.AddActivity
+activity#epd.vr.com.apppessoas.AddActitity
 ADDED from C:\Users\SAV_EdAV\AndroidStudioProjects\AppPessoas\app\src\main\AndroidManifest.xml:25:9-30:20
 	android:name
 		ADDED from C:\Users\SAV_EdAV\AndroidStudioProjects\AppPessoas\app\src\main\AndroidManifest.xml:25:19-46

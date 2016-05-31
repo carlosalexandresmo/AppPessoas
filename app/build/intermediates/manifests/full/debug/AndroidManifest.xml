@@ -28,7 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="epd.vr.com.apppessoas.AddActivity" >
+        <activity android:name="epd.vr.com.apppessoas.AddActitity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

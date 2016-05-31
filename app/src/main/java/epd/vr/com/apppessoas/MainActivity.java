@@ -35,10 +35,12 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
                 Pessoa pessoa = pessoas.get(position);
-                Intent i = new Intent(MainActivity.this, AddActitity.class);
-                i.putExtra("nome", pessoa.getmNome());
-                i.putExtra("idade", pessoa.getmIdade());
-                i.putExtra("sexo", pessoa.getmSexo());
+                Intent i = new Intent(MainActivity.this, DetailActivity.class);
+                Bundle mBundle = new Bundle();
+                mBundle.putString("nome", pessoa.getmNome());
+                mBundle.putInt("idade", pessoa.getmIdade());
+                mBundle.putChar("sexo", pessoa.getmSexo());
+                i.putExtras(mBundle);
                 startActivity(i);
             }
         });

@@ -22,12 +22,8 @@ public class DetailActivity extends AppCompatActivity {
 
         Bundle extras = getIntent().getExtras();
 
-        String nome = extras.getString("nome");
-        String idade = extras.getString("idade");
-        String sexo = extras.getString("sexo");
-
-        tvNome.setText(nome);
-        tvIdade.setText(idade);
-        tvSexo.setText(sexo);
+        tvNome.setText(extras.getString("nome"));
+        tvIdade.setText(String.valueOf(extras.getInt("idade")));
+        tvSexo.setText(String.valueOf(extras.getChar("sexo")));
     }
 }

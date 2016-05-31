@@ -63,13 +63,13 @@ public class Pessoa {
         pessoa = new Pessoa("Ana Luiza",25,'F');
         pessoas.add(pessoa);
 
-        pessoa = new Pessoa("Ana Luiza",25,'F');
+        pessoa = new Pessoa("Antõnio Carlos",24,'M');
         pessoas.add(pessoa);
 
-        pessoa = new Pessoa("Ana Luiza",25,'F');
+        pessoa = new Pessoa("Bruno César",35,'M');
         pessoas.add(pessoa);
 
-        pessoa = new Pessoa("Ana Luiza",25,'F');
+        pessoa = new Pessoa("Arthur",55,'M');
         pessoas.add(pessoa);
 
         return pessoas;

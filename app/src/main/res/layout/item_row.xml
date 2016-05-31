@@ -12,17 +12,23 @@
         <TextView
             android:id="@+id/tvNome"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="@string/nome"/>
 
         <TextView
             android:id="@+id/tvIdade"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="@string/idade"/>
 
         <TextView
             android:id="@+id/tvSexo"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:textSize="18sp"
+            android:layout_height="wrap_content"
+            android:text="@string/sexo"/>
 
         <TextView
             android:id="@+id/tvEmail"

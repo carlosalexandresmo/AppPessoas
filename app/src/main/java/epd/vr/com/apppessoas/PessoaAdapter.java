@@ -15,16 +15,17 @@ import java.util.ArrayList;
 public class PessoaAdapter extends BaseAdapter {
 
     private Context context;
-    private ArrayList<Pessoa> arrPessoas;
+    private ArrayList<Pessoa> mArrPessoas;
     private static LayoutInflater inflater=null;
 
     public PessoaAdapter(Context c, ArrayList<Pessoa> arrPessoas) {
         context = c;
+        this.mArrPessoas = arrPessoas;
         inflater = (LayoutInflater)c.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
     public int getCount() {
-        return arrPessoas.size();
+        return mArrPessoas.size();
     }
 
     public Object getItem(int position) {
@@ -40,7 +41,7 @@ public class PessoaAdapter extends BaseAdapter {
         if(convertView==null)
             vi = inflater.inflate(R.layout.item_row, null);
 
-        Pessoa p = arrPessoas.get(position);
+        Pessoa p = mArrPessoas.get(position);
 
         TextView nome = (TextView)vi.findViewById(R.id.tvNome); // nome
         TextView idade = (TextView)vi.findViewById(R.id.tvIdade); // idade
@@ -48,9 +49,9 @@ public class PessoaAdapter extends BaseAdapter {
 
 
         // Setting all values in listview
-        nome.setText(p.getmNome());
-        idade.setText(p.getmIdade());
-        sexo.setText(p.getmSexo());
+        nome.setText(context.getResources().getString(R.string.nome)+" "+p.getmNome());
+        idade.setText(context.getResources().getString(R.string.idade)+" "+String.valueOf(p.getmIdade()));
+        sexo.setText(context.getResources().getString(R.string.sexo)+" "+String.valueOf(p.getmSexo()=='M'?"Masculino":"Feminino"));
         return vi;
     }
 }

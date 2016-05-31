@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AppPessoas</string>
+
+
+    <string name="nome">Nome: </string>
+    <string name="idade">Idade: </string>
+    <string name="sexo">Sexo: </string>
 </resources>
